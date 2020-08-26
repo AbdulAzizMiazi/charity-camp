@@ -1,4 +1,5 @@
 import React from 'react';
+import './eachUser.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 
@@ -10,7 +11,7 @@ const EachUser = (props) => {
     const img = props.userDetails.picture.large;
     const fullName = `${first} ${last}`;
     return (
-        <div>
+        <div className="userInfo">
             <div className="details">
                 <h3>{fullName}</h3>
                 <p>Phone: {phone}

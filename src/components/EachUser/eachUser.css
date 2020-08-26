@@ -1,0 +1,24 @@
+.userInfo{
+    border-top: 1px solid black;
+    display: flex;
+    padding: 15px 0px;
+}
+.details{
+    font-size: 20px;
+    width: 45%;
+    padding: 2%;
+}
+.details button{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 50px;
+    cursor: pointer;
+}
+.profile-pic{
+    width: 50%;    
+}
+.profile-pic img{
+    width: 50%;
+    margin-left: 47.5%;
+    margin-top: 2.5%;
+}

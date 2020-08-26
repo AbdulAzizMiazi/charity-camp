@@ -1,0 +1,19 @@
+.totalViewer{
+    margin: 0px 12.5vw;
+    padding: 2.5vw;
+    display: flex;
+}
+.currentTotal,.currentCharity{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+    width: 32.5vw;
+    height: 30vh;
+    margin-right: 5vw;
+}
+.currentCharity{
+    background-color: tomato;
+    margin-right: 0vw !important;
+}

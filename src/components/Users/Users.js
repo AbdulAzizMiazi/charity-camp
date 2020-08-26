@@ -1,4 +1,5 @@
 import React from 'react';
+import './users.css'
 import { useState} from 'react';
 import { useEffect } from 'react';
 import EachUser from '../EachUser/EachUser';
@@ -48,19 +49,19 @@ const Users = () => {
             <div className="totalShower">
                 <Total currentTotal={currentTotal} currentCharity={currentCharity}></Total>
             </div>
-            {/* <div className="usersShower">
-
-            </div> */}
-            <h1>User Is Here</h1>
-            <p>Total Available Users: {users.length}</p>
-            <h3>Total Added: {addMember.length}</h3>
-            <ul>
-                {
-                    users.map(userDetails => 
-                        <EachUser userDetails={userDetails} addMembers={addMembers}></EachUser>
-                    )
-                }
-            </ul>
+            <div className="usersShower">
+                {/* <h1>User Is Here</h1>
+                <p>Total Available Users: {users.length}</p> */}
+                <h3>Total Added: {addMember.length}</h3>
+                <ul>
+                    {
+                        users.map(userDetails => 
+                            <EachUser userDetails={userDetails} addMembers={addMembers}></EachUser>
+                        )
+                    }
+                </ul>
+            </div>
+            
         </div>
     );
 };
